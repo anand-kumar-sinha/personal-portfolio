@@ -43,7 +43,7 @@ const Skills = () => {
                                 {({ isVisible }) =>
                                     <div className={isVisible ? "animate__animated animate__rubberBand" : ""}>
                                         <h2>Skills</h2>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque natus, adipisci rem atque iste dolorum quaerat maiores expedita? At harum, quo soluta, incidunt exercitationem  aliquam consectetur perspiciatis esse dolorem blanditiis iusto facilis. Perferendis, dolores?</p>
+                                        <p>Intermediate Level in C language, Web Devlopment, React JS, C++ language and Designing</p>
                                     </div>}
                             </TrackVisibility>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
