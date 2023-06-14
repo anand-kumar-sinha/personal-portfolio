@@ -45,7 +45,7 @@ const Contact = () => {
             <form onSubmit={handleSubmit}>
               <TrackVisibility>
                 {({ isVisible }) =>
-                  <div className={isVisible ? "animate__animated animate__fadeInTopLeft" : "animate__animated animate__fadeOutTopLeft"}>
+                  <div className={isVisible ? "animate__animated animate__fadeInBottomLeft" : "animate__animated animate__fadeOutBottomLeft"}>
                     <Row>
                       <Col sm={6} className="px-1">
                         <input
