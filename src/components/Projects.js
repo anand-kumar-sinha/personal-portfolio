@@ -6,6 +6,7 @@ import projImg4 from "../assests/img/project-img4.png"
 import projImg5 from "../assests/img/project-img5.png"
 import projImg6 from "../assests/img/project-img6.png"
 import projImg7 from "../assests/img/project-img7.png"
+import projimg8 from '../assests/img/project-img8.png'
 import { Container, Row, Nav, Col, Tab } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assests/img/color-sharp2.png"
@@ -15,6 +16,13 @@ import 'animate.css'
 const Projects = () => {
 
     const projects = [
+        
+        {
+            title: "Loot - bazar",
+            description: "E-commerce MERN stack",
+            imgUrl: projimg8,
+            link: "https://lootbazarfrontend.vercel.app/",
+        },
         {
             title: "Hello-Engg",
             description: "Important Notes, Small projects and Programms",
