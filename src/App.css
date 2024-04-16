@@ -420,6 +420,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
+
+@media (max-width: 800px) {
+  .project .nav.nav-pills {
+    width: 100%;
+  }
+  .project .nav.nav-pills .nav-link {
+    font-size: 13px !important;
+  }
+}
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
