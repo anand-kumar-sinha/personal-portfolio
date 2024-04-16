@@ -65,7 +65,7 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/uchiha-obito/?_l=en_US" target="_blank">
+                            <a href="https://www.linkedin.com/in/anandkumar620/" target="_blank">
                                 <img src={NavIcon1} alt=""></img>
                             </a>
                         </div>

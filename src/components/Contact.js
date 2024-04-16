@@ -43,9 +43,8 @@ const Contact = () => {
           <Col md={6}>
             <h2>Get In Touch</h2>
             <form onSubmit={handleSubmit}>
-              <TrackVisibility>
-                {({ isVisible }) =>
-                  <div className={isVisible ? "animate__animated animate__fadeInBottomLeft" : "animate__animated animate__fadeOutBottomLeft"}>
+              
+                  <div>
                     <Row>
                       <Col sm={6} className="px-1">
                         <input
@@ -107,8 +106,7 @@ const Contact = () => {
                         </Col>
                       )}
                     </Row>
-                  </div>}
-              </TrackVisibility>
+                  </div>
             </form>
           </Col>
         </Row>
