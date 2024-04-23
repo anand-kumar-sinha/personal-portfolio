@@ -3,6 +3,7 @@ import projImg1 from "../assests/img/project-img1.png";
 import projImg2 from "../assests/img/project-img2.png";
 import projImg3 from "../assests/img/project-img3.png";
 import projImg4 from "../assests/img/project-img4.png";
+import android0 from "../assests/img/android0.jpg";
 import projImg6 from "../assests/img/project-img6.png";
 import projImg7 from "../assests/img/project-img7.png";
 import projimg8 from "../assests/img/project-img8.png";
@@ -67,6 +68,12 @@ const Projects = () => {
     },
   ];
   const Andprojects = [
+    {
+      title: "Twitter-Clone",
+      description: "Social-Media",
+      imgUrl: android0,
+      link: "https://drive.google.com/file/d/1yZSQbTuGasZf4KagDq11dqCQynuqwI0I/view?usp=sharing",
+    },
     {
       title: "Petu-bazar",
       description: "Recipe application",
