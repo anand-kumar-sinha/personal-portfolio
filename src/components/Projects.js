@@ -72,7 +72,7 @@ const Projects = () => {
       title: "Twitter-Clone",
       description: "Social-Media",
       imgUrl: android0,
-      link: "https://drive.google.com/file/d/1yZSQbTuGasZf4KagDq11dqCQynuqwI0I/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1o4Gbpl1l5GdNW6Vx5nokZelFH2chPw61/view?usp=sharing",
     },
     {
       title: "Petu-bazar",
